@@ -20,7 +20,7 @@ function compute() {
     var year = new Date().getFullYear()+parseInt(years);
 
     // calculates the amount
-    var amount = principal + interest;
+    var amount = interest;
 
     // updates the DOM accordingly
     document.getElementById("result").innerHTML = `If you deposit <mark>${principal}</mark>,<br>at an interest rate of <mark>${rate}</mark>.<br>You will receive an amount of <mark>${amount}</mark>,<br>in the year <mark>${year}</mark><br/><br/>`;
