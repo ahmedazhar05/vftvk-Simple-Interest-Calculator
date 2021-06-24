@@ -4,7 +4,7 @@ function compute() {
     var principal = parseFloat(p.value);
 
     // shows an alert if principal value is 0 or some negative value
-    if(principal <= 0){
+    if(principal <= 0 || p.value == ""){
 
         // shows the alert and focuses the principal element
         alert("Enter a positive number");
